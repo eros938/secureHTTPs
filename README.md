@@ -73,13 +73,7 @@ Recommendations will be provided based on the analysis results.
 - Content Security Policy (CSP): default-src 'none'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; frame-ancestors 'self'
 ![image](https://github.com/eros938/Web-Security-Scanner/assets/150992485/5eaf8046-3e97-4b31-b36f-814f1cc31e22)
 
-## License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-You can use the above description as your README.md file on GitHub. Just make sure to replace the placeholder for the example output image with the actual path to your image.
-
-
-PEACE OUT.
 
 
 
