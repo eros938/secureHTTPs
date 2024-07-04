@@ -59,20 +59,18 @@ The tool will display the SSL/TLS configuration, certificate expiration date, an
 Recommendations will be provided based on the analysis results.
 ## Example
 
-When you enter a URL and click "Analyze," the tool will display information similar to the following:
+1. When you enter a URL and click "Analyze," the tool will display information similar to the following:
+
+2. Analyzing website: example.com
+
+3. Days until certificate expiration: 123
 
 
-Days until certificate expiration: 123
-
-Analyzing website: example.com
-
-Protocol Version: TLSv1.3
-Cipher Suite: ('TLS_AES_128_GCM_SHA256', 'TLSv1.3', 128)
-The current cipher suite is recommended.
-
-Content Security Policy (CSP): default-src 'none'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; frame-ancestors 'self'
-Contribution
-Feel free to contribute by forking the repository and submitting pull requests. For major changes, please open an issue first to discuss what you would like to change.
+4. **Output:**
+- Protocol Version: TLSv1.3
+- Cipher Suite: ('TLS_AES_128_GCM_SHA256', 'TLSv1.3', 128)
+- The current cipher suite is recommended.
+- Content Security Policy (CSP): default-src 'none'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; frame-ancestors 'self'
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
