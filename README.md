@@ -20,19 +20,19 @@ sudo python3 analyzer.py
 ```
 
 ## Features
-**SSL/TLS Configuration Analysis:**
+ * **SSL/TLS Configuration Analysis:**
 
 Checks the protocol version being used (e.g., TLSv1.2, TLSv1.3).
 Analyzes the cipher suite and compares it against a list of recommended cipher suites.
 Provides recommendations for upgrading to more secure protocol versions and cipher suites if necessary.
-**Certificate Expiration Check:**
+* **Certificate Expiration Check:**
 
 Retrieves and displays the number of days until the SSL/TLS certificate expires.
-**Content Security Policy (CSP) Analysis:**
+* **Content Security Policy (CSP) Analysis:**
 
 Checks for the presence of the CSP header and displays its contents if found.
 Provides a note if the CSP header is not found.
-**HTTP to HTTPS Redirection:**
+* **HTTP to HTTPS Redirection:**
 
 Automatically converts HTTP URLs to HTTPS to ensure secure connections.
 How It Works
