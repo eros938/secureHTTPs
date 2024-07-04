@@ -71,6 +71,8 @@ Recommendations will be provided based on the analysis results.
 - Cipher Suite: ('TLS_AES_128_GCM_SHA256', 'TLSv1.3', 128)
 - The current cipher suite is recommended.
 - Content Security Policy (CSP): default-src 'none'; script-src 'self'; object-src 'none'; base-uri 'self'; connect-src 'self'; frame-ancestors 'self'
+
+  
 ![image](https://github.com/eros938/Web-Security-Scanner/assets/150992485/5eaf8046-3e97-4b31-b36f-814f1cc31e22)
 
 
