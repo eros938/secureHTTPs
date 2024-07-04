@@ -1,7 +1,7 @@
-#Website Security Analyzer
+# Website Security Analyzer
 This tool is designed to analyze the security configuration of a website by checking its SSL/TLS setup, Content Security Policy (CSP), and certificate expiration date. The tool provides recommendations on improving the security of the website.
 
-Features
+## Features
 SSL/TLS Configuration Analysis:
 
 Checks the protocol version being used (e.g., TLSv1.2, TLSv1.3).
@@ -20,7 +20,7 @@ Automatically converts HTTP URLs to HTTPS to ensure secure connections.
 How It Works
 The tool uses Python's tkinter library for the GUI, ssl and socket libraries for analyzing SSL/TLS configurations, and requests library for fetching CSP headers.
 
-Main Components:
+## Main Components:
 GUI: A simple user interface built with tkinter where users can input a website URL and view the analysis results.
 SSL/TLS Analysis: Establishes an SSL connection to the provided URL, retrieves the protocol version and cipher suite, and compares them with recommended settings.
 Certificate Expiration: Checks the SSL/TLS certificate for its expiration date and calculates the number of days until expiration.
@@ -38,12 +38,11 @@ View Results:
 
 The tool will display the SSL/TLS configuration, certificate expiration date, and CSP details in the text area of the GUI.
 Recommendations will be provided based on the analysis results.
-Example
+## Example
 
 When you enter a URL and click "Analyze," the tool will display information similar to the following:
 
-csharp
-Copy code
+
 Days until certificate expiration: 123
 
 Analyzing website: example.com
@@ -56,7 +55,7 @@ Content Security Policy (CSP): default-src 'none'; script-src 'self'; object-src
 Contribution
 Feel free to contribute by forking the repository and submitting pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-License
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 You can use the above description as your README.md file on GitHub. Just make sure to replace the placeholder for the example output image with the actual path to your image.
