@@ -39,20 +39,21 @@ How It Works
 The tool uses Python's tkinter library for the GUI, ssl and socket libraries for analyzing SSL/TLS configurations, and requests library for fetching CSP headers.
 
 ## Main Components:
-GUI: A simple user interface built with tkinter where users can input a website URL and view the analysis results.
+* **GUI**: A simple user interface built with tkinter where users can input a website URL and view the analysis results.
 SSL/TLS Analysis: Establishes an SSL connection to the provided URL, retrieves the protocol version and cipher suite, and compares them with recommended settings.
 Certificate Expiration: Checks the SSL/TLS certificate for its expiration date and calculates the number of days until expiration.
 CSP Analysis: Sends an HTTP request to fetch and analyze the CSP header from the website's response.
-How to Use
-**Install the necessary Python libraries:**
+How to Use:
+
+* **Install the necessary Python libraries:**
 
 Ensure you have requests and tkinter libraries installed. You can install requests using pip install requests.
-Run the script:
+* **Run the script:**
 
 Execute the Python script to launch the GUI.
 Enter the URL of the website you want to analyze in the input field.
 Click the "Analyze" button to start the analysis.
-**View Results:**
+* **View Results:**
 
 The tool will display the SSL/TLS configuration, certificate expiration date, and CSP details in the text area of the GUI.
 Recommendations will be provided based on the analysis results.
