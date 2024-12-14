@@ -7,7 +7,7 @@ This tool is designed to analyze the security configuration of a website by chec
 ## Installation guide:
 ### 1) Clone Repository:
 ```bash
-git clone https://github.com/eros938/Web-Security-Scanner.git
+git clonehttps://github.com/eros938/secureHTTPs.git
 ```
 ### 2) Move into repo directory:
 
