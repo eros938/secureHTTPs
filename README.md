@@ -1,4 +1,4 @@
-# Website Security Analyzer
+# secureHTTPs
 This tool is designed to analyze the security configuration of a website by checking its SSL/TLS setup, Content Security Policy (CSP), and certificate expiration date. The tool provides recommendations on improving the security of the website.
 
 ## Preinstallation steps:
