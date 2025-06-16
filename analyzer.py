@@ -69,7 +69,7 @@ def analyze_csp_config(hostname):
         response = requests.get(f"https://{hostname}")
         headers = response.headers
 
-        # Check if CSP header is present
+        # Check if CSP header is present or not.
         if 'Content-Security-Policy' in headers:
             csp_header = headers['Content-Security-Policy']
             result_text.insert(tk.END, f"Content Security Policy (CSP): {csp_header}\n\n")
@@ -130,7 +130,7 @@ website_label.pack()
 website_entry = tk.Entry(root, width=50)
 website_entry.pack()
 
-# Create a button to analyze the website
+#  A button to analyze the website
 analyze_button = tk.Button(root, text="Analyze", command=analyze_website)
 analyze_button.pack()
 
