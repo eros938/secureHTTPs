@@ -79,7 +79,7 @@ def analyze_csp_config(hostname):
     except Exception as e:
         result_text.insert(tk.END, f"Error analyzing CSP for {hostname}: {e}\n\n")
 
-# Function to convert HTTP URLs to HTTPS
+# Function to convert HTTP URLs to HTTPS if the url is not https.
 def convert_to_https(url):
     if not url.startswith("https://"):
         url = "https://" + url[len("http://"):]
